@@ -229,4 +229,8 @@ source "drivers/halls/Kconfig"
 
 source "drivers/trusty/Kconfig"
 
+source "techpack/audio/Kconfig"
+
+source "techpack/data/drivers/Kconfig"
+
 endmenu
