@@ -7225,7 +7225,7 @@ static int fg_gen4_probe(struct platform_device *pdev)
 	fg->vbatt_full_volt_uv = 0;
 	fg->curr_cold_thermal_level = 1;
 	chip->calib_level = -EINVAL;
-	fg->fake_authentic = -EINVAL;
+	fg->fake_authentic = 1;
 	fg->fake_chip_ok = -EINVAL;
 	fg->batt_fake_temp = -EINVAL;
 #ifdef CONFIG_BATT_VERIFY_BY_DS28E16
