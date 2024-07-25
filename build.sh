@@ -1,6 +1,10 @@
 #!/bin/bash
 
 Start=$(date +"%s")
+VER=".7.0"
+BASE_AK_VER="CANBERRY"
+AK_VER="$BASE_AK_VER$VER"
+export LOCALVERSION=~`echo $AK_VER`
 export ARCH=arm64
 export SUBARCH=arm64
 export DTC_EXT=${HOME}/toolchain/dtc/dtc-1.4.4/prebuilt/dtc
